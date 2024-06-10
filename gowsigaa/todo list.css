@@ -5,13 +5,13 @@ html, body {
     height: 100%;
     width: 100%;
     background-color:#85c1e5 ;
-    padding-top: 10px;
+    
     overflow-y: hidden;
 }
 
 .container {
     width: 80%;
-padding-top: 40x;
+padding-top: 10x;
     margin: 50px auto;
     background-color:#f8f3ea;
     border-radius: 8px;
