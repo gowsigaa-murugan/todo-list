@@ -9,17 +9,21 @@
 <body>
     <div class="container">
         <h1 style="margin-bottom: 10px;">TODO LIST</h1>
-        <input type="text" id="taskInput" placeholder="Add a task..." style="margin-left: 10px;">
+        <input type="text" id="taskInput" placeholder="Add a task (special characters like @$% are not allowed)" style="margin-left: 10px ;">
         <button id="addButton">Add</button>
         <div class="filters" style="margin-left: 10px;">
-            <button class="filter-btn" id="allTasks" data-filter="all">All Tasks</button>
-            <button class="filter-btn" id="incompleteTasks" data-filter="incomplete">Incomplete</button>
-            <button class="filter-btn" id="completedTasks" data-filter="completed">Completed</button>
-        </div>
+            <button class="filter-btn" data-filter="all">All <span class="count-badge" id="allTaskCount">0</span></button>
+<button class="filter-btn" data-filter="incomplete">Incomplete <span class="count-badge" id="incompleteTaskCount">0</span></button>
+<button class="filter-btn" data-filter="completed">Complete <span class="count-badge" id="completedTaskCount">0</span></button>
+ </div>
+ <div class="list">
+<div class="lot">List of Task</div>
+<div class="actions">List of Action</div>
+
+ 
+ </div>
         <ul id="taskList"style="margin-left: 10px; margin-bottom:10px;"></ul>
     </div>
-
-    <script src="todo list .js"></script>
+        <script src="todo list .js"></script>
 </body>
 </html>
-
