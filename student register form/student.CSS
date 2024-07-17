@@ -1,0 +1,64 @@
+html, body {
+   padding: 0%;
+   margin: 0%;
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+h2 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: bold;
+   color: blue;
+   text-align: center;
+   text-decoration: underline;
+}
+
+table {
+   height: 70%;
+   width: 50%;
+   font-family: verdana;
+   color: white;
+   font-size: 10.5px;
+   font-style: normal;
+   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+   border-collapse: collapse;
+   border: solid #000000;
+   border-style: dashed;
+}
+
+table.inner {
+   border: 0px;
+}
+
+
+@media (min-width: 1024px) {
+   table {
+       height: 60%;
+       width: 60%;
+       font-size: 12px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   table {
+       height: 65%;
+       width: 70%;
+       font-size: 11px;
+   }
+}
+
+
+@media (max-width: 767px) {
+   table {
+       height: 80%;
+       width: 90%;
+       font-size: 9px;
+   }
+
+   h2 {
+       font-size: 12px;
+   }
+}
