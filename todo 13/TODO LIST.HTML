@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo list.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-bottom: 10px;">TODO LIST</h1>
+        <input type="text" id="taskInput" placeholder="Add a task (special characters like @$% are not allowed)" style="margin-left: 10px ;">
+        <button id="addButton">Add</button>
+        <div class="filters" style="margin-left: 10px;">
+            <button class="filter-btn" data-filter="all">All <span class="count-badge" id="allTaskCount">0</span></button>
+<button class="filter-btn" data-filter="incomplete">Incomplete <span class="count-badge" id="incompleteTaskCount">0</span></button>
+<button class="filter-btn" data-filter="completed">Complete <span class="count-badge" id="completedTaskCount">0</span></button>
+ </div>
+ <div class="list">
+<div class="lot">List of Task</div>
+<div class="actions">List of Action</div>
+
+ 
+ </div>
+        <ul id="taskList"style="margin-left: 10px; margin-bottom:10px;"></ul>
+    </div>
+        <script src="todo list .js"></script>
+</body>
+</html>
+
